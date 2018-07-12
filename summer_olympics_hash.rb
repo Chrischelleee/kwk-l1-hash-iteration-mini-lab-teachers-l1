@@ -24,7 +24,7 @@ def iterate_through_hash
   summer_olympics = create_olympics_hash
   summer_olympics.store(:Atlanta, "1996")
   summer_olympics.each do |place, year|
-    puts "The #{place} summer olympics took place in #{year}."
+    puts "The #{place.upcase} summer olympics took place in #{year}."
   end
   puts summer_olympics
   puts summer_olympics
