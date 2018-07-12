@@ -18,8 +18,8 @@ end
 
 def iterate_through_hash
 
-  add_a_key_value_pair.each do |x, y|
-    puts "The #{x} summer olympics took place in #{y}."
+  add_a_key_value_pair.each do |key, value|
+    puts "The #{key} summer olympics took place in #{value}."
   
   end
   puts add_a_key_value_pair
