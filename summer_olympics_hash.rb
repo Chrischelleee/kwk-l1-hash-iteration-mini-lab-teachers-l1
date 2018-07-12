@@ -27,7 +27,7 @@ def iterate_through_hash
   #   puts "The #{x} summer olympics took place in #{y}."
   # end
   return summer_olympics
-  puts olympics_hash
+  puts summer_olympics
 end
 
 
