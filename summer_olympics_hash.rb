@@ -22,9 +22,9 @@ def iterate_through_hash
   #   puts "The #{place} summer olympics took place in #{year}."
   # end
     summer_olympics = add_a_key_value_pair
-  summer_olympics.each do |x, y|
-    puts "The #{x} summer olympics took place in #{y}."
-  end
+  # summer_olympics.each do |x, y|
+  #   puts "The #{x} summer olympics took place in #{y}."
+  # end
   return summer_olympics
 end
 
