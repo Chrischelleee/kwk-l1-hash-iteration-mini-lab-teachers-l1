@@ -17,6 +17,7 @@ def add_a_key_value_pair
 end
 
 def iterate_through_hash
+  
   summer_olympics = add_a_key_value_pair
   summer_olympics.each do |x, y|
     puts "The #{x} summer olympics took place in #{y}."
