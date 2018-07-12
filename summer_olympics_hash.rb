@@ -26,7 +26,7 @@ def iterate_through_hash
   summer_olympics.each do |place, year|
     puts "The #{place} summer olympics took place in #{year}."
   end
-  return summer_olympics
+  puts summer_olympics
   puts summer_olympics
 end
 puts  iterate_through_hash 
