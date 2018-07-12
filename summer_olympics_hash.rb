@@ -21,12 +21,12 @@ def iterate_through_hash
   # olympics_hash.each do |place, year|
   #   puts "The #{place} summer olympics took place in #{year}."
   # end
-    summer_olympics = add_a_key_value_pair
+    olympics_hash = add_a_key_value_pair
   # summer_olympics.each do |x, y|
   #   puts "The #{x} summer olympics took place in #{y}."
   # end
-  return summer_olympics
-  puts summer_olympics
+  return olympics_hash
+  puts olympics_hash
 end
 
 
