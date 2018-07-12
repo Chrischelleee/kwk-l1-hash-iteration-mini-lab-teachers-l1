@@ -18,9 +18,9 @@ end
 
 def iterate_through_hash
 
-  add_a_key_value_pair.each {|x, y|
+  add_a_key_value_pair.each do |x, y|
     puts "The #{x} summer olympics took place in #{y}."
-  }
+  
   end
   puts add_a_key_value_pair
   # Implement this method so that it iterates over the hash created in add_a_key_value_pair
