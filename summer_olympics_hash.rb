@@ -15,6 +15,7 @@ def add_a_key_value_pair
   return summer_olympics
   # Implement this method so that it adds a key value pair to the hash created in create_olympics_hash
 end
+
 def iterate_through_hash
   summer_olympics = add_a_key_value_pair
   summer_olympics.each do |x, y|
